@@ -1,0 +1,80 @@
+\documentclass{book}
+\usepackage[a4paper, margin=20mm]{geometry}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{svg}
+\usepackage{graphicx}
+\usepackage{authblk}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{pifont}
+\usepackage{scrhack}
+\usepackage{amssymb}
+\usepackage[english]{babel}
+\usepackage[numbers]{natbib}
+\usepackage{nomencl}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{enumitem}
+\hypersetup{linktoc=all}
+\graphicspath{{figures/}}
+
+\usetikzlibrary{calc,patterns,decorations.pathmorphing,decorations.markings,shapes.geometric}
+\setlength{\tabcolsep}{14pt}
+\renewcommand{\arraystretch}{1.2}
+\tikzstyle{spring}=[decorate,decoration={coil,pre length=0.2cm,post length=0.2cm,segment length=4}]
+\tikzstyle{damper}=[decoration={markings,  
+  mark connection node=dmp,
+  mark=at position 0.5 with 
+  {
+    \node (dmp) [inner sep=0pt,transform shape,rotate=-90,minimum width=8pt,minimum height=3pt,draw=none] {};
+    \draw ($(dmp.north east)+(2pt,0)$) -- (dmp.south east) -- (dmp.south west) -- ($(dmp.north west)+(2pt,0)$);
+    \draw ($(dmp.north)+(0,-3pt)$) -- ($(dmp.north)+(0,3pt)$);
+  }
+}, decorate]
+
+\begin{document}
+\frontmatter
+
+% Cover page
+\input{chapters/cover}
+
+% Setup of the document
+\input{chapters/ch0}
+
+\mainmatter
+\chapter{Introduction}
+\input{chapters/ch1}
+
+\chapter{Literature Review}
+\input{chapters/ch2}
+
+%\chapter{Physical Model}
+%\input{chapters/ch3}
+
+
+\chapter{Mathematical Model}
+\input{chapters/ch4}
+
+\chapter{Modern Control Techniques}
+\input{chapters/ch5}
+
+\chapter{Results and Conclusion}
+\input{chapters/ch6}
+
+
+\appendix
+\chapter{Appendices}
+\input{chapters/appendicies}
+
+
+\bibliographystyle{unsrtnat}
+\bibliography{ref}
+
+
+\end{document}
+

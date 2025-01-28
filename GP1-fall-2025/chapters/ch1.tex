@@ -1,0 +1,115 @@
+This chapter provides an introduction to vehicle suspension systems, outlining their fundamental characteristics and components. It begins by exploring various methods of classifying suspension systems and offers an overview of the terminology commonly used in suspension system technology. Detailed descriptions are included for several prevalent suspension components. It is important to highlight that this project specifically focuses on a prepared vertical test rig simulating a quarter-car model, which serves as the foundation for our study and analysis of suspension systems. 
+
+
+\section{Importance of Suspension System}
+Suspension components, particularly spring, as the system elastic member, and damper have a profound effect as it serve a dual purpose contributing to the vehicle's handling and increasing the vehicle safety and improve the level of comfort of the passengers and keeping vehicle occupants comfortable and reasonably well isolated from road noise, bumps, and vibrations (better overall driving experience). It is important for the suspension to keep the vehicle wheel in contact with the road surface as much as possible, because all the forces acting on the vehicle do so through the contact patches of the tires. The suspension also helps protect the vehicle itself and any cargo or luggage from damage and wear. \cite{barton2018automotive}
+
+\section{Suspension system components}
+
+This section provides brief overview of the essential components of suspension system, specifically springs and dampers, both of which have a profound effect on ride and handling performance. \cite{happian-smith2001introduction}
+
+\subsection{SPRING (Elastic member)}
+The suspension system incorporates an elastic link between the tires and the vehicle's body, enabling it to simultaneously press the tires onto the road surface to follow dips and absorb shocks or overloads. This system minimizes the transmission of impacts to the vehicle frame, ensuring both stability and comfort. There are three main types of springs commonly used in suspension systems: torsion bars, coil springs, and leaf springs.
+	\begin{itemize}
+		\item \textbf{Coil springs} are essentially wound torsion bars, prized for their exceptional endurance, compact design, and ease of mounting.
+		\item \textbf{Leaf springs} consist of long, thin members that are loaded in bending. They are typically assembled using multiple thin metal layers to achieve the desired spring rate. Beyond providing suspension, they also function as linkage and damping elements.
+		\item \textbf{Torsion bars} rely on the twisting motion of a long bar to provide a spring rate that reduces shock loading on the vehicle. However, their placement across the lower portion of the car makes them more difficult to package compared to other types. \cite{trzesniowski2023suspension} 
+	\end{itemize}
+Characteristics of spring is detailed in Appendix 1.
+
+\subsection{DAMPER (Energy dissipation member)}
+As a car passes over a bump, the springs deflect and then rebound. Without a mechanism to dissipate the energy stored in the springs, the car would continue to bounce up and down. Dampers, or shock absorbers, fulfill this critical role. A damper consists of a piston and a cylinder equipped with adjustable valves that control the flow of hydraulic fluid (oil). These valves regulate the damping force during both the retraction (bounce) and extension (rebound) phases. The damper allows oil to flow through one-way valves in the piston and small control passages from one chamber to another, but this flow is deliberately restricted, causing it to move very slowly.
+
+This controlled fluid movement slows down the spring's oscillations, helping the car return to a stable, level ride. The damper converts the kinetic energy from the vehicle's bounce into thermal energy, effectively dissipating it. Dampers are designed to retract under a lower force than is required for extension. This asymmetry allows them to absorb road bump forces while effectively dampening spring oscillations, resulting in improved ride comfort, vehicle stability, and control. \cite{barton2018automotive}\\
+
+\section{Suspension System Performance}
+The performance of an automotive suspension system refers to how well it functions in terms of providing balance between passenger comfort, vehicle stability during all driving conditions.
+
+Suspension dynamic performance:
+	\begin{itemize}[label= ]
+		\item \textbf{Vehicle Handling:} Vehicle stability and road holding (i.e. providing grip for the driver of the vehicle to control direction).
+		\item \textbf{Ride Quality:} Passenger's comfort or discomfort during movement of the vehicle.	
+	\end{itemize}
+	
+The preferred performance of a suspension system is defined by its ability to seamlessly blend vehicle handling and roadholding, evaluated through dynamic tire deflection (DTD), with ride quality assessed via the transmissibility ratio (TR). An ideal suspension system ensures that passengers enjoy a smooth and comfortable ride, free from excessive body vibrations, while also providing the driver with optimal control, stability, and responsiveness under various driving conditions.
+	
+A well-designed suspension system strikes the perfect balance, delivering a luxurious ride for everyday driving and dynamic handling for sporty driving. It excels in vibration isolation by effectively dampening road-induced disturbances and offers sufficient suspension travel and dynamic tire deflection to adapt to diverse terrains.
+	
+Performance characteristics are detailed in Appendix 2.
+	
+\section{Effect of suspension Parameters}
+Achieving both a luxurious ride and dynamic handling for sport driving presents a significant challenge in passive suspension systems (PSS). This is due to the opposing suspension characteristics required to fulfill these two objectives simultaneously. The inherent trade-offs in automotive passive suspension systems result in compromises between comfort and performance.	
+Explanation of these trade-offs is detailed in Appendix 3.
+	
+\section{Motivation}
+The experience of oscillations during vehicle motion is a well-documented challenge that arises primarily due to irregularities and stimuli encountered on road surfaces. These oscillations have far-reaching implications, affecting passenger comfort, cargo stability, and vehicle durability. To mitigate these effects, suspension systems are engineered to regulate and attenuate oscillations, ensuring that they remain within acceptable limits.
+
+Automotive suspension systems have evolved significantly, encompassing various designs such as passive (mechanical), semi-active, active, and pneumatic systems. Passive suspension systems, characterized by their simplicity and cost-effectiveness, dominate the market and are commonly integrated into mass-produced vehicles. They typically consist of components such as coil springs, leaf springs, torsion bars, dampers, lever arms, and stabilizer bars. While these systems perform adequately under standard conditions, their inherent limitations—such as fixed properties and lack of adaptability to dynamic external stimuli—can compromise ride comfort, particularly in challenging driving environments. To address these shortcomings, advancements in suspension technology have introduced systems with enhanced adaptability. Air suspension systems, for instance, employ air springs capable of modulating stiffness through internal pressure adjustments, offering improved responsiveness to varying road conditions. Semi-active systems, incorporating technologies like magnetorheological (MR) dampers, provide another layer of adaptability, enabling the system to better respond to road-induced oscillations.
+
+Active suspension systems represent the pinnacle of suspension technology, capable of dynamically adjusting to changing road conditions in real-time. By actively controlling the forces applied to the suspension components, these systems offer unparalleled performance in mitigating oscillations, ensuring optimal ride comfort, and maintaining vehicle stability. This thesis aims to explore and further develop control strategies for active suspension systems, emphasizing their potential to redefine vehicle dynamics and enhance overall driving experiences. In active suspension system, a hydraulic actuator (or electromagnetic actuator) generates an impact force acting on both masses of the vehicle, gradually diminishing the vehicle's oscillation.\cite{nguyen2023design}
+
+
+\section{Scope and Objective}
+The main focus of this study is to perform a comparative analysis for the most commonly used modern control techniques, including LQR, SMC, and RL. The evaluation will focus on their effectiveness in reducing vertical acceleration and displacement of the sprung mass, and the suspension travel. The pros and cons of each technique will be assessed based on these results.
+	
+\begin{itemize}
+	\item \textbf{Objectives:}
+	\begin{itemize}
+		\item Conducting various simulations using MATLAB/SIMULINK on the quarter car model to understand its behavior.
+		\item Compare between the response of the PSS and ASS for various road profiles
+		\item Implement the selected control algorithms on MATLAB/SIMULINK environment for different conditions.
+		\item Conduct comparative analysis to determine the suitable control algorithm for which case.
+		
+	\end{itemize}
+\end{itemize}	
+
+\section{Limitations}
+\begin{itemize}
+\item Simplified Model: The use of a quarter-car model represents a simplification of the actual vehicle dynamics. A full-vehicle model would provide a more accurate representation of real-world behavior, considering interactions between different axles and body motions.
+\item Limited Scope: The research focuses on a limited set of control strategies (LQR, RL, and SMC). Exploring other advanced control techniques, such as adaptive control and predictive control, could provide further insights into optimal suspension performance.
+\item Simulation-Based: The study relies entirely on simulations. Experimental validation on a physical test rig would be necessary to further validate the findings and assess the practical feasibility of the proposed control strategies.
+\item Idealized Assumptions: The simulations may involve idealized assumptions, such as perfect actuator dynamics and the absence of noise and disturbances in the measurements. Real-world implementations may encounter challenges due to these factors.
+\item Computational Cost: Some control algorithms, such as Reinforcement Learning, can be computationally expensive, especially for complex models or real-time applications.
+\end{itemize}
+
+\section{Thesis contribution}
+This work contributes to the field of vehicle dynamics by:
+
+	\begin{itemize}
+		\item Demonstrating the effectiveness of advanced control techniques: The study provides a comparative analysis of LQR, RL, and SMC controllers in enhancing the performance of an active suspension system. This analysis will shed light on the strengths and weaknesses of each approach under different operating conditions.
+
+		\item Validating the use of simulation tools: The research leverages MATLAB/Simulink for the design, implementation, and evaluation of control strategies. This demonstrates the effectiveness of simulation tools in developing and testing control systems for complex dynamic systems like vehicle suspensions.
+
+		\item Providing insights into control system design: The findings of this research will contribute to a better understanding of how to design and implement effective control systems for active suspensions, considering factors such as ride comfort and handling.
+
+		\item Establishing a foundation for future research: The results and insights gained from this research can serve as a foundation for further investigations into more advanced control techniques, such as adaptive control and predictive control, for improving vehicle suspension systems.
+	\end{itemize}
+
+\section{Thesis Organization}
+The content of thesis is as follows:
+\begin{itemize}
+	\item \textbf{Chapter 1: Introduction}
+	\begin{itemize}
+		\item Provided background on vehicle suspension systems, motivation for the research, research objectives, scope and limitations, and an outline of the thesis structure. 
+	\end{itemize}
+	\item \textbf{Chapter 2: Literature Review}
+	\begin{itemize}
+		\item Reviews existing research on vehicle suspension systems, control theory fundamentals, active suspension control, simulation and modeling techniques, and state estimation methods.
+	\end{itemize}
+	\item \textbf{Chapter 3: Mathematical Modeling}
+	\begin{itemize}
+		\item Derives the equations of motion for the quarter-car model, develops the state-space representation.
+	\end{itemize}
+	\item \textbf{Chapter 4: Modern Control Techniques}
+	\begin{itemize}
+		\item Focuses on the design and implementation of LQR, RL, and SMC controllers in MATLAB/Simulink, including simulation setup, and analysis.
+	\end{itemize}
+	\item \textbf{Chapter 5: Results and Discussion}
+	\begin{itemize}
+		\item Presents and discusses the simulation results, compares the performance of the control strategies, analyzes the results, and investigates the impact of control parameters.
+	\end{itemize}
+	\item \textbf{Chapter 6: Conclusion and Future Work}
+	\begin{itemize}
+		\item Summarizes the key findings and conclusions, discusses the research contributions, acknowledges limitations, and suggests potential areas for future research.
+	\end{itemize}
+\end{itemize}
