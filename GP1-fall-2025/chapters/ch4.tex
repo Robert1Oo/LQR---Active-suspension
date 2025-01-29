@@ -32,6 +32,7 @@ Both the transverse and longitudinal deflections are considered insignificant co
 	\label{table:qcm_image}
 \end{table}
 
+\newpage
 \subsection{Passive Suspension Model}
 The parameters for the PSS are given in the following table:
 
@@ -121,7 +122,7 @@ A state-space representation is a mathematical model used in modern control theo
 
 \textbf{The general state-space representation is given by the following:}
 $$\dot{x}_{(t)}=Ax_{(t)}+Bu_{(t)}$$
-$$y_{(t)}=Cx_{(t)}$$
+$$y_{(t)}=Cx_{(t)}+Du_{(t)}$$
 
 \begin{itemize}
 	\item $x$: State variables vector.
@@ -209,6 +210,97 @@ Using the above equations of motion, the state-space model of the active suspens
 	F_c
 \end{bmatrix}
 \end{equation}
+
+
+
+
+
+
+
+\section{State Space Controllability}
+State-space controllability refers to the ability to drive a system from any initial state to any desired state within a finite time using an appropriate control input. A linear time-invariant (LTI) system represented in state-space form, is controllable if the controllability matrix has full rank. When this condition is met, it ensures that the system's states can be influenced by the control input, enabling effective feedback control design.\newline
+
+$\mathcal{C} = \left[ \begin{matrix}
+	B & AB & A^2B & \cdots & A^{n-1}B
+\end{matrix} \right]$\newline
+
+$rank(\mathcal{C}) = n$
+
+
+\begin{verbatim}
+	% MATLAB script
+	ms  = 34;           % Sprung Mass (kg)
+	mus = 11;           % Unsprung Mass (kg)
+	ks  = 6921;         % Suspension Stiffness (N/m)
+	kus = 81000;        % Wheel stiffness (N/m)
+	bs  = 0;            % Suspension Inherent Damping coefficient (sec/m)
+	bus = 0;            % Wheel Inhenrent Damping coefficient (sec/m)
+	
+	%% System Dynamics for the Active Suspension system.
+	A = [ 0 1 0 -1 ;
+	-ks/ms -bs/ms 0 bs/ms;
+	0 0 0 1; 
+	ks/mus bs/mus -kus/mus -(bs+bus)/mus];
+	
+	B = [0  0 ; 
+	0 1/ms ; 
+	-1  0 ;
+	bus/mus -1/mus ];
+	
+	C = [ 1 0 0 0 ; 
+	-ks/ms -bs/ms 0 bs/ms ];
+	
+	D = [0 0;
+	0 0;
+	0 0;
+	0 0;
+	0 0;
+	0 1/ms];
+	
+	%% Controllability
+	rank(ctrb(A,B))
+\end{verbatim}
+
+The following figure shows that the system is controllable, because its controllability matrix is full rank which is equal to the number of states.\newline
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{ctrb.png}
+	\caption{Conrollability matrix is full rank}
+	\label{fig:ctrb}	
+\end{figure}
+
+
+\section{Road Disturbance Profile}
+The slider-crank mechanism as shown in\ref{fig:sliderr} is used to simulate road. This mechanism converts the rotational motion of a crank into the linear motion of a slider, effectively replicating the vertical displacement experienced by a vehicle's suspension system when driving over uneven road surfaces which can change road amplitude by changing eccentricity from crank disk.
+\begin{figure}[H]
+	\centering
+	\includegraphics[trim=0cm 4cm 0cm 0cm, clip, width=1\linewidth]{sliderr.pdf}
+	\caption{the slider crank mechanism}
+	\label{fig:sliderr}
+\end{figure}
+
+\begin{itemize}
+	\item $R$: Length of the crank
+	\item $L$: Length of the connecting rod
+	\item $\theta $: Angle of the crank 
+	\item $x$: Position of the slider
+\end{itemize}
+\newpage
+\subsection*{Kinematic Equations}
+
+The position \( x \) of the slider can be determined using the crank angle \( \theta \) and \( \phi \) be the angle of the connecting rod with the horizontal. The position \( x \) of the slider can be expressed as:
+
+\[
+x = R \left[ 1 - \cos \theta + n - \sqrt{n^2 - \sin^2 \theta} \right]
+\]
+
+since \( n = \frac{L}{R} \).
+
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -381,32 +473,6 @@ y_{(t)}=
 $$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Road Input}
-The slider-crank mechanism as shown in figure 1 is used in a test rig to simulate road input for a passive suspension system. This mechanism converts the rotational motion of a crank into the linear motion of a slider, effectively replicating the vertical displacement experienced by a vehicle's suspension system when driving over uneven road surfaces which can change road amplitude by changing eccentricity from crank disk.
-\begin{figure}[H]
-	\centering
-	\includegraphics[trim=0cm 4cm 0cm 0cm, clip, width=1\linewidth]{sliderr.pdf}
-	\caption{the slider crank mechanism}
-	\label{fig:sliderr}
-\end{figure}
-
-\begin{itemize}
-	\item $R$: Length of the crank
-	\item $L$: Length of the connecting rod
-	\item $\theta $: Angle of the crank 
-	\item $x$: Position of the slider
-\end{itemize}
-\section*{Kinematic Equations}
-
-The position \( x \) of the slider can be determined using the crank angle \( \theta \) and \( \phi \) be the angle of the connecting rod with the horizontal. The position \( x \) of the slider can be expressed as:
-
-\[
-x = R \left[ 1 - \cos \theta + n - \sqrt{n^2 - \sin^2 \theta} \right]
-\]
-
-since \( n = \frac{L}{R} \).
-
 In this chapter we are going to validate the simulation model by comparing between the simulation results and the experimental results.
 \newline
 In the simulation results the road input is taken from the road input sensor to ensure the exact behavior in the real world is entered to the simulation model. So, the procedure of the validation is as follows:
