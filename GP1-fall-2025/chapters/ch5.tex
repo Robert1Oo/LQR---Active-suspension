@@ -21,11 +21,11 @@ $\dot{x} = Ax - BKx$
 
 $\dot{x} = x(A - BK)$
 
+\newpage
 \section{Linear Quadratic regulator}
 \subsection{Overview}
 LQR controller is a widely used type of state feedback control that offers a systematic method for determining the control gain, $K$. The LQR approach will be employed in the controller design for the active suspension system, as it is a classic and straightforward option for linear, time-invariant, multiple-input multiple-output (MIMO) systems. One of the key advantages of using an LQR controller is its ability to weight the factors affecting the performance index based on the desired outcome. For this project, the focus of the LQR approach will be on enhancing ride comfort and improving road-handling performance in the quarter-car model.
 
-\newpage
 The function of an LQR controller is to minimize the cost function, J, which is shown in the following equation:
 
 \[
@@ -35,7 +35,6 @@ J = \frac{1}{2} \int_{0}^{t} (x^{T}Qx + u^{T}Ru) \, dt
 $x^{T}$ = State vector. 
 
 $u^{T}$ = Input vector.
-
 
 \subsection{LQR Implementation}
 The weighting matrices, Q and R, within the quadratic performance index significantly influence the LQR controller's behavior. These matrices allow for tuning the control system's priorities, such as emphasizing ride comfort or minimizing control effort. The optimal values for Q and R were determined through iterative simulations and tuning within the MATLAB environment. This process involved systematically adjusting the elements of Q and R and observing the resulting system response to determine the combination that best met the desired performance objectives.\\ 
@@ -49,11 +48,10 @@ The following figure\ref{fig:lqr-final} shows the model used to simulate the dyn
 	\label{fig:lqr-final}
 \end{figure}
 
-
+\newpage
 \section{LQR Simulation Results}
 To evaluate the performance of the LQR controller we will compare between the passive suspension system and the active suspension sytem in case of two road excitation profiles, the first one will be a simple step input, the second one will be the profile of the slider crank mechanism, that we discussed in the previous chapter (section 3.3)
 
-\newpage
 \subsection{Step Response}
 The following figure\ref{fig:step-sprungs} shows the effect of LQR on the system, it is a comparison between the passive and active response when excited by a step input of 60 mm amplitude.
  \begin{figure}[H]
@@ -191,37 +189,37 @@ After designing the control force to enhance the performance of the suspension s
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[trim=0cm 3cm 0cm 2cm, clip, width=0.6\textwidth]{SD}
+	\includegraphics[trim=0cm 2cm 0cm 2cm, clip, width=0.5\textwidth]{SD}
 	\caption{Sprung mass displacement. }
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[trim=0cm 3cm 0cm 2cm, clip, width=0.6\textwidth]{usd}
+	\includegraphics[trim=0cm 2cm 0cm 2cm, clip, width=0.5\textwidth]{usd}
 	\caption{Usprung mass displacement. }
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[trim=0cm 3cm 0cm 2cm, clip, width=0.6\textwidth]{sus t}
+	\includegraphics[trim=0cm 2cm 0cm 2cm, clip, width=0.5\textwidth]{sus t}
 	\caption{Suspension travel. }
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[trim=0cm 3cm 0cm 2cm, clip, width=0.6\textwidth]{TD}
+	\includegraphics[trim=0cm 2cm 0cm 2cm, clip, width=0.5\textwidth]{TD}
 	\caption{Dynamic tire defeliction. }
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[trim=0cm 3cm 0cm 2cm, clip, width=0.6\textwidth]{accel}
+	\includegraphics[trim=0cm 1.8cm 0cm 2cm, clip, width=0.5\textwidth]{accel}
 	\caption{Sprung mass acceleration. }
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[trim=0cm 3cm 0cm 2cm, clip, width=0.6\textwidth]{force}
+	\includegraphics[trim=0cm 2cm 0cm 2cm, clip, width=0.5\textwidth]{force}
 	\caption{Force. }
 \end{figure}
 

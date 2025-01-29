@@ -29,10 +29,10 @@
 \contentsline {section}{\numberline {3.3}Road Disturbance Profile}{16}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Modern Control Techniques}{19}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Full State Feedback}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Linear Quadratic regulator}{19}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Overview}{19}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.2}Linear Quadratic regulator}{20}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Overview}{20}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}LQR Implementation}{20}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}LQR Simulation Results}{20}{section.4.3}%
+\contentsline {section}{\numberline {4.3}LQR Simulation Results}{21}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Step Response}{21}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Road Profile Excitation}{23}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Sliding mode control}{25}{section.4.4}%
