@@ -1,0 +1,327 @@
+\begin{thebibliography}{48}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Genta(2014)]{genta2014motorcar}
+G.~E.~A. Genta.
+\newblock \emph{The Motor Car: Past, Present and Future}.
+\newblock Springer Science \& Business Media, 2014.
+
+\bibitem[Wong(2001)]{wong2001theory}
+J.~Y. Wong.
+\newblock \emph{Theory of Ground Vehicles}.
+\newblock John Wiley \& Sons, 2001.
+
+\bibitem[Hamza(2022)]{hamza2022intelligent}
+A.~Y. N.~B. Hamza.
+\newblock Intelligent ann controller of active suspension based on iso 2631–5
+  and iso 8608 standards, 2022.
+
+\bibitem[{Various}(2025)]{controltutorials}
+{Various}.
+\newblock Controlstatespace, 2025.
+\newblock URL
+  \url{https://ctms.engin.umich.edu/CTMS/index.php?example=Suspension&section=ControlStateSpace}.
+
+\bibitem[ove()]{overview}
+
+
+\bibitem[RL_()]{RL_workflow}
+Reinforcement learning workflow.
+\newblock URL
+  \url{https://www.mathworks.com/help/reinforcement-learning/ug/reinforcement-learning-workflow.html}.
+
+\bibitem[age()]{agents}
+Rl agents.
+
+\bibitem[Barton and Fieldhouse(2018)]{barton2018automotive}
+D.~C. Barton and J.~D. Fieldhouse.
+\newblock \emph{Automotive Chassis Engineering}.
+\newblock Springer, 2018.
+
+\bibitem[Happian-Smith(2001)]{happian-smith2001introduction}
+J.~Happian-Smith.
+\newblock \emph{An Introduction to Modern Vehicle Design}.
+\newblock Elsevier, 2001.
+
+\bibitem[Trzesniowski(2023)]{trzesniowski2023suspension}
+M.~Trzesniowski.
+\newblock \emph{Suspension System}.
+\newblock Springer Nature, 2023.
+
+\bibitem[Nguyen(2023{\natexlab{a}})]{nguyen2023design}
+Tuan~Anh Nguyen.
+\newblock Design a new control algorithm afsp (adaptive fuzzy--sliding
+  mode--proportional--integral) for automotive suspension system.
+\newblock \emph{Advances in Mechanical Engineering}, 15\penalty0 (2):\penalty0
+  16878132231154189, 2023{\natexlab{a}}.
+
+\bibitem[AL-ASHTARI(2023)]{alashtari2023fuzzy}
+W.~AL-ASHTARI.
+\newblock Fuzzy logic control of active suspension system equipped with a
+  hydraulic actuator.
+\newblock \emph{International Journal of Applied Mechanics and Engineering},
+  28\penalty0 (3):\penalty0 13--27, 2023.
+\newblock \doi{10.59441/ijame/172895}.
+
+\bibitem[Oliver(1981)]{oliver1981}
+G.~Oliver.
+\newblock \emph{Cars and Coach Building}.
+\newblock Sotheby Parke Bernet, London, 1981.
+
+\bibitem[Anfia(2010)]{anfia2010}
+Anfia.
+\newblock \emph{L’industria automobilistica mondiale 2000–2010}.
+\newblock Torino, 2010.
+
+\bibitem[Duong et~al.(2022)]{duong2022modeling}
+Nguyen Hac~Lan Duong et~al.
+\newblock Modeling and simulation of pid controller-based active suspension
+  system for a quarter car model.
+\newblock \emph{Journal of Technical Education Science}, \penalty0
+  (68):\penalty0 111--120, 2022.
+
+\bibitem[Huba et~al.(2021)Huba, Chamraz, Bistak, and Vrancic]{huba2021making}
+Mikulas Huba, Stefan Chamraz, Pavol Bistak, and Damir Vrancic.
+\newblock Making the pi and pid controller tuning inspired by ziegler and
+  nichols precise and reliable.
+\newblock \emph{Sensors}, 21\penalty0 (18):\penalty0 6157, 2021.
+
+\bibitem[Chen and Zhou(2018)]{chen2018modelling}
+Xue-wen Chen and Yue Zhou.
+\newblock Modelling and analysis of automobile vibration system based on fuzzy
+  theory under different road excitation information.
+\newblock \emph{Complexity}, 2018:\penalty0 1--9, 2018.
+
+\bibitem[Metered et~al.(2018)Metered, Abbas, and Emam]{metered2018optimized}
+H~Metered, W~Abbas, and AS~Emam.
+\newblock Optimized proportional integral derivative controller of vehicle
+  active suspension system using genetic algorithm.
+\newblock Technical report, SAE Technical Paper, 2018.
+
+\bibitem[Al-Mutar and Abdalla(2015)]{al2015quarter}
+Wissam~H Al-Mutar and Turki~Y Abdalla.
+\newblock Quarter car active suspension system control using pid controller
+  tuned by pso.
+\newblock \emph{Iraqi Journal for Electrical And Electronic Engineering},
+  11\penalty0 (2):\penalty0 151--158, 2015.
+
+\bibitem[Dahunsi et~al.(2020)Dahunsi, Dangor, Pedro, and
+  Ali]{dahunsi2020proportional+}
+Olurotimi~A Dahunsi, Muhammed Dangor, Jimoh~O Pedro, and M~Montaz Ali.
+\newblock Proportional+ integral+ derivative control of nonlinear full-car
+  electrohydraulic suspensions using global and evolutionary optimization
+  techniques.
+\newblock \emph{Journal of Low Frequency Noise, Vibration and Active Control},
+  39\penalty0 (2):\penalty0 393--415, 2020.
+
+\bibitem[Nguyen(2021{\natexlab{a}})]{nguyen2021improving}
+T.~A. Nguyen.
+\newblock Improving the comfort of the vehicle based on using the active
+  suspension system controlled by the double-integrated controller.
+\newblock \emph{Shock and Vibration}, pages 1--11, 2021{\natexlab{a}}.
+\newblock \doi{10.1155/2021/1426003}.
+
+\bibitem[Wu et~al.(2021)Wu, Liu, Li, Liu, and Wang]{wu2021multi}
+Kun Wu, Jiang Liu, Min Li, Jianze Liu, and Yushun Wang.
+\newblock Multi-mode active suspension control based on a genetic k-means
+  clustering linear quadratic algorithm.
+\newblock \emph{Applied Sciences}, 11\penalty0 (21):\penalty0 10493, 2021.
+
+\bibitem[Rodriguez-Guevara et~al.(2021)Rodriguez-Guevara, Favela-Contreras,
+  Beltran-Carbajal, Sotelo, and Sotelo]{rodriguez2021active}
+Daniel Rodriguez-Guevara, Antonio Favela-Contreras, Francisco Beltran-Carbajal,
+  David Sotelo, and Carlos Sotelo.
+\newblock Active suspension control using an mpc-lqr-lpv controller with
+  attraction sets and quadratic stability conditions.
+\newblock \emph{Mathematics}, 9\penalty0 (20):\penalty0 2533, 2021.
+
+\bibitem[Nguyen et~al.(2022)Nguyen, Tran, Nguyen, Nguyen, and
+  Dang]{nguyen2022application}
+Manh~Long Nguyen, Thi Thu~Huong Tran, Tuan~Anh Nguyen, Duc~Ngoc Nguyen, and
+  Ngoc~Duyen Dang.
+\newblock Application of mimo control algorithm for active suspension system: a
+  new model with 5 state variables.
+\newblock \emph{Latin American Journal of Solids and Structures}, 19:\penalty0
+  e435, 2022.
+
+\bibitem[Xia et~al.(2015)Xia, Li, He, Shi, and Zhang]{xia2015linear}
+Rong-xia Xia, Jin-hui Li, Jie He, Deng-feng Shi, and Ying Zhang.
+\newblock Linear-quadratic-gaussian controller for truck active suspension
+  based on cargo integrity.
+\newblock \emph{Advances in Mechanical Engineering}, 7\penalty0 (12):\penalty0
+  1687814015620320, 2015.
+
+\bibitem[Zhang et~al.(2024)Zhang, Wu, and Ma]{lqr_singular_systems}
+Guoliang Zhang, Meiying Wu, and Ning Ma.
+\newblock Revisiting the lqr problem of singular systems.
+\newblock \emph{IEEE/CAA Journal of Automatica Sinica}, 2024.
+\newblock \doi{10.1109/JAS.2024.124665}.
+
+\bibitem[Gupta and Singh(2020)]{lqr_predictions}
+Arjun Gupta and Rajesh Singh.
+\newblock The power of predictions in online control.
+\newblock \emph{NeurIPS Proceedings}, 2020.
+\newblock URL
+  \url{https://papers.neurips.cc/paper_files/paper/2020/file/155fa09596c7e18e50b58eb7e0c6ccb4-Paper.pdf}.
+
+\bibitem[Mitra and Sun(2024)]{lqr_stability_recursive}
+Avishek Mitra and Junfeng Sun.
+\newblock Stability-certified on-policy data-driven lqr via recursive learning
+  and policy gradient.
+\newblock \emph{arXiv}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.05367}.
+
+\bibitem[Meetei and Das(2021)]{meetei2021enhanced}
+L~Vidyaratan Meetei and Dushmanta~Kumar Das.
+\newblock Enhanced nonlinear disturbance observer based sliding mode control
+  design for a fully active suspension system.
+\newblock \emph{International Journal of Dynamics and Control}, 9:\penalty0
+  971--984, 2021.
+
+\bibitem[Nguyen(2021{\natexlab{b}})]{nguyen2021advance}
+Tuan~Anh Nguyen.
+\newblock Advance the efficiency of an active suspension system by the sliding
+  mode control algorithm with five state variables.
+\newblock \emph{IEEE Access}, 9:\penalty0 164368--164378, 2021{\natexlab{b}}.
+
+\bibitem[Nguyen and Nguyen(2022)]{nguyen2022novel}
+Duc~Ngoc Nguyen and Tuan~Anh Nguyen.
+\newblock A novel hybrid control algorithm sliding mode-pid for the active
+  suspension system with state multivariable.
+\newblock \emph{Complexity}, 2022:\penalty0 1--14, 2022.
+
+\bibitem[Zhao et~al.(2023)Zhao, Xie, Xiao, Xu, and Gao]{zhao2023sliding}
+Jing Zhao, Zuoyu Xie, Min Xiao, Fengyu Xu, and Zhifeng Gao.
+\newblock A sliding mode control algorithm based on improved super-twisting and
+  its application to quadrotors.
+\newblock \emph{Journal of Control and Decision}, 10\penalty0 (3):\penalty0
+  433--442, 2023.
+
+\bibitem[Hsiao and Wang(2022)]{hsiao2022evaluation}
+Chun-Yu Hsiao and Yu-Hsien Wang.
+\newblock Evaluation of ride comfort for active suspension system based on
+  self-tuning fuzzy sliding mode control.
+\newblock \emph{International Journal of Control, Automation and Systems},
+  20\penalty0 (4):\penalty0 1131--1141, 2022.
+
+\bibitem[Suhail et~al.(2022)Suhail, Bazaz, and Hussain]{suhail2022adaptive}
+Suhail~Ahmad Suhail, Mohammad~Abid Bazaz, and Shoeb Hussain.
+\newblock Adaptive sliding mode-based active disturbance rejection control for
+  vehicle suspension control.
+\newblock \emph{Proceedings of the Institution of Mechanical Engineers, Part I:
+  Journal of Systems and Control Engineering}, 236\penalty0 (8):\penalty0
+  1523--1533, 2022.
+
+\bibitem[Wang et~al.(2018)Wang, Zhao, Gong, and Yang]{wang2018nonlinear}
+Dazhuang Wang, Dingxuan Zhao, Mingde Gong, and Bin Yang.
+\newblock Nonlinear predictive sliding mode control for active suspension
+  system.
+\newblock \emph{Shock and Vibration}, 2018, 2018.
+
+\bibitem[Issam~Dridi and Yahia(2023)]{deep_rl_suspension}
+Anis~Hamza Issam~Dridi and Noureddine~Ben Yahia.
+\newblock Deep reinforcement learning for active suspension control.
+\newblock \emph{Advances in Mechanical Engineering}, 2023.
+\newblock URL
+  \url{https://journals.sagepub.com/doi/full/10.1177/16878132231180480}.
+\newblock Accessed on January 26, 2025.
+
+\bibitem[Yang~Wang and Guo(2023)]{td3_active_suspension}
+Shijie~Zhao Yang~Wang, Cheng~Wang and Konghui Guo.
+\newblock Deep reinforcement learning control algorithm for active suspension.
+\newblock \emph{Sensors}, 23\penalty0 (18):\penalty0 7827, 2023.
+\newblock URL \url{https://www.mdpi.com/1424-8220/23/18/7827}.
+\newblock Accessed on January 26, 2025.
+
+\bibitem[Issam~Dridi and Yahia(2024)]{ai_rl_full_vehicle}
+Anis~Hamza Issam~Dridi and Noureddine~Ben Yahia.
+\newblock Optimizing full vehicle active suspension with advanced reinforcement
+  learning controller.
+\newblock \emph{International Journal on Interactive Design and Manufacturing},
+  2024.
+\newblock URL
+  \url{https://www.researchgate.net/publication/384931055_Optimizing_full_vehicle_active_suspension_model_with_advanced_reinforcement_learning_controller}.
+\newblock Accessed on January 26, 2025.
+
+\bibitem[Gang~Wang and Liu(2024)]{rl_half_car}
+Tingting~Zhou Gang~Wang, Jiafan~Deng and Suqi Liu.
+\newblock Reinforcement learning-based vibration control for half-car active
+  suspension.
+\newblock \emph{Processes}, 12\penalty0 (8):\penalty0 1591, 2024.
+\newblock URL \url{https://www.mdpi.com/2227-9717/12/8/1591}.
+\newblock Accessed on January 26, 2025.
+
+\bibitem[Viktor~Wiberg and Servin(2023)]{sim_to_real_rl}
+Arvid Fälldin Tobias Semberg Morgan Rossander Eddie~Wadbro Viktor~Wiberg,
+  Erik~Wallin and Martin Servin.
+\newblock Sim-to-real transfer of active suspension control using deep
+  reinforcement learning.
+\newblock \emph{arXiv}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2306.11171}.
+\newblock Accessed on January 26, 2025.
+
+\bibitem[Nishesh~Singh and Singh(2024)]{closed_chain_rl}
+Abhishek Shankar Jyotishka Duttagupta Leander Stephen~D'Souza Nishesh~Singh,
+  Sidharth~Ramesh and Sanjay Singh.
+\newblock Autonomous control of a novel closed chain five bar active suspension
+  via deep reinforcement learning.
+\newblock \emph{arXiv}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.18899}.
+\newblock Accessed on January 26, 2025.
+
+\bibitem[AmirReza~BabaAhmadi and Ayati(2023)]{mr_damped_rl}
+Masoud~ShariatPanahi AmirReza~BabaAhmadi and Moosa Ayati.
+\newblock A deep reinforcement learning-based controller for
+  magnetorheological-damped vehicle suspension.
+\newblock \emph{arXiv}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2301.02714}.
+\newblock Accessed on January 26, 2025.
+
+\bibitem[Harsh~Modi and Zheng(2024)]{iterative_learning_rl}
+Zhaojian~Li Harsh~Modi, Mohammad R~Hajidavalloo and Minghui Zheng.
+\newblock Robust iterative learning for collaborative road profile estimation
+  and active suspension control in connected vehicles.
+\newblock \emph{arXiv}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.17643}.
+\newblock Accessed on January 26, 2025.
+
+\bibitem[{Funsho Adebari }(2020)]{lqr_acti}
+{Funsho Adebari }.
+\newblock Lqr for active suspension system, 2020.
+\newblock URL \url{https://github.com/funsho45}.
+
+\bibitem[East et~al.(2021)East, Turcotte, Plante, and
+  Julio]{east2021experimental}
+W.~East, J.~Turcotte, J.~S. Plante, and G.~Julio.
+\newblock Experimental assessment of a linear actuator driven by
+  magnetorheological clutches for automotive active suspensions.
+\newblock \emph{Journal of Intelligent Material Systems and Structures},
+  32\penalty0 (9):\penalty0 955--970, 2021.
+\newblock \doi{10.1177/1045389x21991237}.
+
+\bibitem[Oborne(1983)]{oborne1983whole}
+D.~J. Oborne.
+\newblock Whole-body vibration and international standard iso 2631: A critique.
+\newblock \emph{Human Factors: The Journal of the Human Factors and Ergonomics
+  Society}, 25\penalty0 (1):\penalty0 55--69, 1983.
+\newblock \doi{10.1177/001872088302500106}.
+
+\bibitem[Nguyen(2023{\natexlab{b}})]{nguyen2023establishing}
+T.~A. Nguyen.
+\newblock Establishing a novel adaptive fuzzy control algorithm for an active
+  stabilizer bar with complex automotive dynamics model.
+\newblock \emph{Ain Shams Engineering Journal}, 15\penalty0 (1):\penalty0
+  102334, 2023{\natexlab{b}}.
+\newblock \doi{10.1016/j.asej.2023.102334}.
+
+\bibitem[Kuber(2014)]{kuber2014modelling}
+Chaitanya Kuber.
+\newblock Modelling simulation and control of an active suspension system.
+\newblock \emph{International Journal of Mechanical Engineering \& Technology
+  (IJMET)}, 5\penalty0 (11):\penalty0 66--75, 2014.
+
+\end{thebibliography}

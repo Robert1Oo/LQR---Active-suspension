@@ -1,0 +1,229 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: GP1-January-2025.aux
+The style file: unsrtnat.bst
+Database file #1: ref.bib
+Repeated entry---line 1635 of file ref.bib
+ : @article{alashtari2023fuzzy
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1657 of file ref.bib
+ : @book{barton2018automotive
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1673 of file ref.bib
+ : @book{happian-smith2001introduction
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1689 of file ref.bib
+ : @book{trzesniowski2023suspension
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1703 of file ref.bib
+ : @book{wong2001theory
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1719 of file ref.bib
+ : @article{east2021experimental
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1743 of file ref.bib
+ : @article{oborne1983whole
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1767 of file ref.bib
+ : @article{nguyen2023establishing
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1789 of file ref.bib
+ : @article{kuber2014modelling
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1811 of file ref.bib
+ : @article{nguyen2021improving
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1833 of file ref.bib
+ : @book{genta2014motorcar
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1911 of file ref.bib
+ : @misc{hamza2022intelligent
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2031 of file ref.bib
+ : @book{anfia2010
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2185 of file ref.bib
+ : @book{oliver1981
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2237 of file ref.bib
+ : @article{nguyen2023design
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2269 of file ref.bib
+ : @article{duong2022modeling
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2287 of file ref.bib
+ : @article{huba2021making
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2309 of file ref.bib
+ : @article{chen2018modelling
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2329 of file ref.bib
+ : @techreport{metered2018optimized
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2343 of file ref.bib
+ : @article{al2015quarter
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2365 of file ref.bib
+ : @article{dahunsi2020proportional+
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2391 of file ref.bib
+ : @article{wu2021multi
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2413 of file ref.bib
+ : @article{rodriguez2021active
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2435 of file ref.bib
+ : @article{nguyen2022application
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2455 of file ref.bib
+ : @article{xia2015linear
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2477 of file ref.bib
+ : @article{meetei2021enhanced
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2519 of file ref.bib
+ : @article{nguyen2021advance
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2539 of file ref.bib
+ : @article{nguyen2022novel
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2559 of file ref.bib
+ : @article{zhao2023sliding
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2669 of file ref.bib
+ : @article{hsiao2022evaluation
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2691 of file ref.bib
+ : @article{suhail2022adaptive
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2713 of file ref.bib
+ : @article{wang2018nonlinear
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "controltutorials" isn't style-file defined
+--line 3843 of file ref.bib
+Warning--entry type for "lqr_acti" isn't style-file defined
+--line 3857 of file ref.bib
+Warning--entry type for "RL_workflow" isn't style-file defined
+--line 3871 of file ref.bib
+Warning--entry type for "overview" isn't style-file defined
+--line 3879 of file ref.bib
+"{" immediately follows a field name---line 3881 of file ref.bib
+ :  title
+ :       {RL Overview}
+I'm skipping whatever remains of this entry
+Warning--entry type for "agents" isn't style-file defined
+--line 3887 of file ref.bib
+I was expecting an "="---line 3889 of file ref.bib
+ :  title = {RL agents},reinforcement 
+ :                                    Learning Workflow
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "WANI2022103"
+Too many commas in name 1 of "Viktor Wiberg, Erik Wallin, Arvid Fälldin, Tobias Semberg, Morgan Rossander, Eddie Wadbro and Martin Servin" for entry sim_to_real_rl
+while executing---line 1233 of file unsrtnat.bst
+Too many commas in name 1 of "Viktor Wiberg, Erik Wallin, Arvid Fälldin, Tobias Semberg, Morgan Rossander, Eddie Wadbro and Martin Servin" for entry sim_to_real_rl
+while executing---line 1233 of file unsrtnat.bst
+Too many commas in name 1 of "Viktor Wiberg, Erik Wallin, Arvid Fälldin, Tobias Semberg, Morgan Rossander, Eddie Wadbro and Martin Servin" for entry sim_to_real_rl
+while executing---line 1233 of file unsrtnat.bst
+Too many commas in name 1 of "Nishesh Singh, Sidharth Ramesh, Abhishek Shankar, Jyotishka Duttagupta, Leander Stephen D'Souza and Sanjay Singh" for entry closed_chain_rl
+while executing---line 1233 of file unsrtnat.bst
+Too many commas in name 1 of "Nishesh Singh, Sidharth Ramesh, Abhishek Shankar, Jyotishka Duttagupta, Leander Stephen D'Souza and Sanjay Singh" for entry closed_chain_rl
+while executing---line 1233 of file unsrtnat.bst
+Warning--empty year in overview
+Warning--empty year in RL_workflow
+Warning--empty year in agents
+Warning--empty publisher in anfia2010
+Warning--there's a number but no volume in duong2022modeling
+Too many commas in name 1 of "Viktor Wiberg, Erik Wallin, Arvid Fälldin, Tobias Semberg, Morgan Rossander, Eddie Wadbro and Martin Servin" for entry sim_to_real_rl
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "Viktor Wiberg, Erik Wallin, Arvid Fälldin, Tobias Semberg, Morgan Rossander, Eddie Wadbro and Martin Servin" for entry sim_to_real_rl
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "Viktor Wiberg, Erik Wallin, Arvid Fälldin, Tobias Semberg, Morgan Rossander, Eddie Wadbro and Martin Servin" for entry sim_to_real_rl
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "Viktor Wiberg, Erik Wallin, Arvid Fälldin, Tobias Semberg, Morgan Rossander, Eddie Wadbro and Martin Servin" for entry sim_to_real_rl
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "Viktor Wiberg, Erik Wallin, Arvid Fälldin, Tobias Semberg, Morgan Rossander, Eddie Wadbro and Martin Servin" for entry sim_to_real_rl
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "Viktor Wiberg, Erik Wallin, Arvid Fälldin, Tobias Semberg, Morgan Rossander, Eddie Wadbro and Martin Servin" for entry sim_to_real_rl
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "Nishesh Singh, Sidharth Ramesh, Abhishek Shankar, Jyotishka Duttagupta, Leander Stephen D'Souza and Sanjay Singh" for entry closed_chain_rl
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "Nishesh Singh, Sidharth Ramesh, Abhishek Shankar, Jyotishka Duttagupta, Leander Stephen D'Souza and Sanjay Singh" for entry closed_chain_rl
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "Nishesh Singh, Sidharth Ramesh, Abhishek Shankar, Jyotishka Duttagupta, Leander Stephen D'Souza and Sanjay Singh" for entry closed_chain_rl
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "Nishesh Singh, Sidharth Ramesh, Abhishek Shankar, Jyotishka Duttagupta, Leander Stephen D'Souza and Sanjay Singh" for entry closed_chain_rl
+while executing---line 1315 of file unsrtnat.bst
+You've used 48 entries,
+            2481 wiz_defined-function locations,
+            808 strings with 13230 characters,
+and the built_in function-call counts, 16412 in all, are:
+= -- 1415
+> -- 703
+< -- 34
++ -- 298
+- -- 200
+* -- 1175
+:= -- 2602
+add.period$ -- 162
+call.type$ -- 48
+change.case$ -- 89
+chr.to.int$ -- 46
+cite$ -- 56
+duplicate$ -- 872
+empty$ -- 1603
+format.name$ -- 278
+if$ -- 3496
+int.to.chr$ -- 3
+int.to.str$ -- 49
+missing$ -- 48
+newline$ -- 266
+num.names$ -- 135
+pop$ -- 401
+preamble$ -- 1
+purify$ -- 48
+quote$ -- 0
+skip$ -- 536
+stack$ -- 0
+substring$ -- 651
+swap$ -- 104
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 315
+warning$ -- 5
+while$ -- 130
+width$ -- 0
+write$ -- 642
+(There were 49 error messages)

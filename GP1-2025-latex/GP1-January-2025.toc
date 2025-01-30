@@ -1,0 +1,86 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Importance of Suspension System}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Suspension system components}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}SPRING (Elastic member)}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}DAMPER (Energy dissipation member)}{1}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Suspension System Performance}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Effect of suspension Parameters}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Motivation}{2}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Scope and Objective}{3}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Limitations}{3}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Thesis contribution}{3}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Thesis Organization}{4}{section.1.9}%
+\contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Suspension system history}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Suspension system evolution}{5}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Recent Research}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}PID controller}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}LQR controller}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}SMC controller}{8}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}RL controller}{8}{subsection.2.2.4}%
+\contentsline {chapter}{\numberline {3}Methodology}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Two-DOF Quarter Car Model}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Passive Suspension Model}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Active Suspension Model}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Equation Of Motion}{13}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}State Space Model}{13}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}State Space Controllability}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Road Disturbance Profile}{15}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Modern Control Techniques}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Full State Feedback}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Linear Quadratic regulator}{18}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Overview}{18}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}LQR Implementation}{18}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}LQR Simulation Results}{19}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Step Response}{19}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Road Profile Excitation}{21}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Sliding mode control}{23}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Overview}{23}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Theory}{23}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}SMC implementation}{23}{subsection.4.4.3}%
+\contentsline {subsubsection}{Dfinning the sliding surface}{23}{section*.28}%
+\contentsline {subsubsection}{Design reaching law}{23}{section*.29}%
+\contentsline {subsubsection}{Design the control law}{24}{section*.30}%
+\contentsline {subsubsection}{Define boundary layer}{24}{section*.31}%
+\contentsline {section}{\numberline {4.5}SMC Simulation Results}{25}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Maximum Actuator force}{26}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.6}Reinforcement learning}{27}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Overview}{27}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Reinforcement learning workflow}{27}{subsection.4.6.2}%
+\contentsline {subsubsection}{Create environment }{28}{section*.41}%
+\contentsline {subsubsection}{Design the Reward Function}{28}{section*.43}%
+\contentsline {subsubsection}{Create agent}{29}{section*.44}%
+\contentsline {subsubsection}{Train agent}{31}{section*.48}%
+\contentsline {section}{\numberline {4.7}Magnetic Field effect on Sensor Signals}{31}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Electromagnetic Induction (Faraday's Law of Induction)}{31}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Effect of the Magnetic Field on Electron Motion in Wires}{32}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Electromagnetic Interference (EMI)}{32}{subsection.4.7.3}%
+\contentsline {section}{\numberline {4.8}Sensor Accuracy Issues in the System}{32}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Measurement Error in Sensors}{32}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Impact of Electromagnetic Interference on Sensors}{33}{subsection.4.8.2}%
+\contentsline {section}{\numberline {4.9}Solutions to the Effect of Magnetic Field inference}{33}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Ferrite Beads}{33}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Shielded Wires}{33}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}Electronic Filters}{33}{subsection.4.9.3}%
+\contentsline {section}{\numberline {4.10}Extended Kalman Filter}{33}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Overview of the Extended Kalman Filter}{33}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Key Features of the Extended Kalman Filter}{34}{subsection.4.10.2}%
+\contentsline {subsection}{\numberline {4.10.3}Mathematical Formulation}{34}{subsection.4.10.3}%
+\contentsline {subsection}{\numberline {4.10.4}Steps in the Extended Kalman Filter}{34}{subsection.4.10.4}%
+\contentsline {subsubsection}{1. Initialization}{34}{section*.50}%
+\contentsline {subsubsection}{2. Prediction}{34}{section*.51}%
+\contentsline {subsubsection}{3. Update}{34}{section*.52}%
+\contentsline {section}{\numberline {4.11}Application of the Extended Kalman Filter to the Active Suspension Model}{34}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}State-Space Representation of the Suspension System}{35}{subsection.4.11.1}%
+\contentsline {subsubsection}{State Vector (\( \mathbf {x}(t) \))}{35}{section*.53}%
+\contentsline {subsubsection}{Input Vector (\( \mathbf {u}(t) \))}{35}{section*.54}%
+\contentsline {subsubsection}{Measurement Vector (\( \mathbf {y}(t) \))}{35}{section*.55}%
+\contentsline {subsection}{\numberline {4.11.2}Nonlinear State Transition and Measurement Functions}{35}{subsection.4.11.2}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{36}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{36}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{36}{section.5.2}%
+\contentsline {chapter}{\numberline {A}Appendices}{37}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Appendix 1 }{37}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Appendix 2}{37}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Appendix 3}{38}{section.A.3}%
